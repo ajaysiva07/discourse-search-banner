@@ -9,7 +9,6 @@ $max-width: 600px;
 }
 
 .custom-search-banner-wrap {
-  border-radius: 25px;
   @if $background-image != "none" {
     background-image: url($background-image);
   } @else {
@@ -21,12 +20,12 @@ $max-width: 600px;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  border-radius: 25px;
   box-sizing: border-box;
   position: relative;
   padding: 2.5em 0 3em;
   margin: 1em auto;
   @include breakpoint(tablet) {
+    border-radius: 25px;
     padding: 1em 8px 2em;
     margin-top: 0.5em;
   }
@@ -68,6 +67,7 @@ $max-width: 600px;
 
   h1,
   p {
+    border-radius: 25px;
     text-align: center;
   }
 
