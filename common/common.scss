@@ -48,7 +48,6 @@ $max-width: 600px;
     flex: 1 1 auto;
     margin: 0;
     padding: 0;
-    border-radius: 25px;
     .searching {
       // spinner
       top: 0.5em;
@@ -128,6 +127,7 @@ $max-width: 600px;
 }
 
 .search-widget {
+  border-radius: 25px;
   div.discourse-tags {
     font-size: var(--font-down-1);
   }
