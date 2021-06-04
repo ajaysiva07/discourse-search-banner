@@ -3,9 +3,7 @@
 $max-width: 600px;
 
 .display-search-banner {
-  border-radius: 25px;
   #main-outlet {
-    border-radius: 25px;
     padding-top: 0;
   }
 }
@@ -22,26 +20,21 @@ $max-width: 600px;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  border-radius: 25px;
   box-sizing: border-box;
   position: relative;
   padding: 2.5em 0 3em;
   margin: 1em auto;
   @include breakpoint(tablet) {
-    border-radius: 25px;
-    border-radius: 25px;
     padding: 1em 8px 2em;
     margin-top: 0.5em;
   }
 
   > div {
-    border-radius: 25px;
     margin: 0 auto;
     max-width: $max-width;
   }
 
   .search-menu {
-    border-radius: 25px;
     position: relative;
     display: flex;
     input[type="text"] {
@@ -142,12 +135,12 @@ $max-width: 600px;
 
 .search-widget {
   div.discourse-tags {
-    border-radius: 25px;
     font-size: var(--font-down-1);
   }
   li a.widget-link {
     display: block;
     padding: 0.25em 0.5em;
+    border-radius: 25px;
     &:hover,
     &:focus {
       background-color: var(--highlight-medium);
