@@ -136,7 +136,7 @@ border-radius: 3px;
   }
 }
 
-.search-widget {
+.panel.clearfix::before {
   div.discourse-tags {
     font-size: var(--font-down-1);
   }
